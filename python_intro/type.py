@@ -48,6 +48,10 @@ print(not not not not True)
 print(not True or not False and not not True and 2 + 2 == 2 * 2)
 # True
 
+# short-circuit
+print('short-circuit', False and True) # ignore after `False and`
+print('short-circuit', True or False) # ignore after `True or`
+
 
 # python type.py
 
