@@ -3,6 +3,10 @@
 # + tuples
 # + strings
 
+print([])
+print(list())
+
+
 spam = ['cat', 'bat', 'rat', 'elephant']
 print(spam)
 print(len(spam))
