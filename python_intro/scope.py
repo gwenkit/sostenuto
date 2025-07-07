@@ -19,7 +19,8 @@ spam()
 print(eggs) # Prints 'spam'
 
 
-# 
+# global variable example
+
 import random
 
 

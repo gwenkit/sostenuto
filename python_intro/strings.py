@@ -67,7 +67,7 @@ print('Hello, world!'.istitle(), 'Hello, World!'.istitle())
 print('01'.isdecimal(), '\t\r\n'.isspace())
 
 
-# method `startwith()`, `endwith()`
+# method `startswith()`, `endswith()`
 
 print('Hello!'.startswith('h'))
 print('hello!'.endswith('o'))
@@ -91,7 +91,7 @@ Bob'''.split('\n')
 print(len(lines)) # 7
 
 
-# method `rjust()`, `ljust()`
+# method `rjust()`, `ljust()`, `center()`
 
 print('Hello'.rjust(10))
 print('Hello'.rjust(20))
