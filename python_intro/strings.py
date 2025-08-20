@@ -26,7 +26,7 @@ def say_hello():
     It does not return anything."""
     print('Hello!')
 
-say_hello()
+print(say_hello())
 
 
 # f-string
@@ -124,7 +124,7 @@ print(chr(ord('A') + 1))
 print(dir(str))
 
 
-# example
+# 열과 행을 서로 바꾸는 연습
 
 table_data = [
     ['apples', 'oranges', 'cherries', 'banana'],
@@ -132,25 +132,27 @@ table_data = [
     ['dogs', 'cats', 'moose', 'goose'],
 ]
 
-def print_table():
-    table = []
-    max_string_len_arr = [0, 0, 0,]
+def print_table(source_table):
+    flattened_data = [] # 일단 하나로 모두 합쳐보려고 합니다.
+    row_count = len(source_table)
+    column_count = len(source_table[0]) # 첫번째 행의 데이터 구조를 채택
+    max_string_len_arr = [0,] * row_count # print 할 때 사용 예정
 
-    for i in range(3):
-        for j in range(4):
-            if max_string_len_arr[i] < len(table_data[i][j]):
-                max_string_len_arr[i] = len(table_data[i][j])
-        table += table_data[i]
-    # print(max_string_len_arr)
+    for i in range(row_count):
+        row = source_table[i]
+        for j in range(column_count):
+            # 가장 긴 글자수를 기억해두기
+            if max_string_len_arr[i] < len(row[j]):
+                max_string_len_arr[i] = len(row[j])
+        flattened_data += row # 이렇게 하나로 모두 합칩니다.
 
-    for i in range(4):
-        print(
-            table[i].rjust(max_string_len_arr[0]),
-            table[i+4].rjust(max_string_len_arr[1]),
-            table[i+8].rjust(max_string_len_arr[2]),
-        )
+    # 이제 행과 열을 바꾸어 print 합니다.
+    for j in range(column_count): # 열 to 행
+        for i in range(row_count): # 행 to 열
+            print(flattened_data[j + column_count*i].rjust(max_string_len_arr[i]), end=' ')
+        print()
 
-print_table()
+print_table(table_data)
 
 
 # python strings.py

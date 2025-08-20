@@ -131,7 +131,7 @@ shelf_file = shelve.open('mydata.log')
 shelf_file['cats'] = ['Zophie', 'Pooka', 'Simon']
 shelf_file['pi'] = 3.14
 shelf_file.close()
-# try(`strings mydata`) on shell
+# try(`strings mydata.log`) on shell
 
 shelf_file = shelve.open('mydata.log')
 print(type(shelf_file))

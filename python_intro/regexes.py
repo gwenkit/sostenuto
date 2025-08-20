@@ -105,7 +105,7 @@ print(type(match), match, match.group())
 pattern = re.compile(r'(\d{3}-)?\d{3}-\d{4}')
 match = pattern.search('My number is 123-456-7890')
 print(type(match), match, match.group())
-match = pattern.search('My number is 123-4567')
+match = pattern.search('My number is 456-7890')
 print(type(match), match, match.group())
 
 
