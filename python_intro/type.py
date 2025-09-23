@@ -53,6 +53,3 @@ print('short-circuit', False and True) # ignore after `False and`
 print('short-circuit', True or False) # ignore after `True or`
 
 
-# python type.py
-
-

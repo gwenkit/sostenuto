@@ -37,6 +37,3 @@ except KeyboardInterrupt: # Ctrl-C
     sys.exit()
 
 
-# python The_Matrix.py
-
-

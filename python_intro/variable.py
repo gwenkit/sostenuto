@@ -19,6 +19,3 @@ print(spam == _42)
 # True
 
 
-# python variable.py
-
-

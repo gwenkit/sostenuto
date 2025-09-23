@@ -31,6 +31,7 @@ deactivate
 source ./venv/bin/activate
 pip list
 pip install humre
+pip install send2trash
 pip freeze > requirements.txt
 pip list
 deactivate

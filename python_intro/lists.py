@@ -191,6 +191,3 @@ print(cheese)
 # The copy.deepcopy() function will copy these inner lists as well.
 
 
-# python lists.py
-
-

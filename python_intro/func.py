@@ -67,6 +67,3 @@ print('World')
 print('cats', 'dogs', 'mice', sep=',')
 
 
-# python func.py
-
-

@@ -1,1 +1,2 @@
 Humre==1.0.0
+Send2Trash==1.8.3

@@ -21,6 +21,3 @@ if not name != '':
     print("not name != ''")
 
 
-# python truthy_falsey.py
-
-

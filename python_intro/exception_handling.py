@@ -15,6 +15,3 @@ print(spam(0))  # Prints 'Error: Invalid argument.'
 print(spam(1))
 
 
-# python exception_handling.py
-
-

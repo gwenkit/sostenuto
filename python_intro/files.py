@@ -1,8 +1,8 @@
 # tested on macOS
 
-from pathlib import Path
 import os
 import time
+from pathlib import Path
 
 
 path = Path('spam', 'bacon', 'eggs')
@@ -139,8 +139,5 @@ print(list(shelf_file.keys()))
 print(list(shelf_file.values()))
 print(shelf_file['cats'])
 shelf_file.close()
-
-
-# python files.py
 
 

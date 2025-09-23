@@ -14,6 +14,3 @@ print(ages)
 assert ages[0] <= ages[-1], 'message if False'
 
 
-# python assertion.py
-
-

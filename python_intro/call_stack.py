@@ -29,6 +29,3 @@ def d():
 a()
 
 
-# python call_stack.py
-
-

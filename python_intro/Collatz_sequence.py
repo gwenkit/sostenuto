@@ -30,6 +30,3 @@ while True:
     num = collatz(num)
 
 
-# python Collatz_sequence.py
-
-

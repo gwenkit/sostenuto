@@ -28,6 +28,3 @@ except KeyboardInterrupt: # cleanly handle the KeyboardInterrupt exception
     sys.exit()
 
 
-# python zigzag.py
-
-

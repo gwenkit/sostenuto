@@ -260,6 +260,3 @@ match = pattern.sub('', '   Hello,   world !        ')
 print(type(match), '[' + match + ']')
 
 
-# python regexes.py
-
-

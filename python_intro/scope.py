@@ -37,6 +37,3 @@ print(get_random_dice_roll())
 print(get_random_dice_roll())
 
 
-# python scope.py
-
-

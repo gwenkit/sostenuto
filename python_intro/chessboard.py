@@ -107,6 +107,3 @@ while True:
         sys.exit()
 
 
-# python chessboard.py
-
-

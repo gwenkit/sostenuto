@@ -155,6 +155,3 @@ def print_table(source_table):
 print_table(table_data)
 
 
-# python strings.py
-
-

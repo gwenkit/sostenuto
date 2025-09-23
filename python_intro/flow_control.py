@@ -24,6 +24,3 @@ else:
 # bad readability example
 
 
-# python flow_control.py
-
-

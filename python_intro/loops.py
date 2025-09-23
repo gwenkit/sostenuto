@@ -72,6 +72,3 @@ else:
 #     print('Please press CTRL-C')
 
 
-# python loops.py
-
-

@@ -14,9 +14,6 @@ while True:
     if response == 'exit':
         print('Bye!')
         sys.exit()
-    print(os.name)
-
-
-# python importing_modules.py
+    print(os.name) # e.g. posix
 
 
