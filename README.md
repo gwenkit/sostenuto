@@ -9,7 +9,7 @@ Hello, world!
 ## once
 
 ```shell
-pyenv local 3.10.4
+pyenv local 3.14.0
 python -m venv venv
 grep venv .gitignore
 ```
